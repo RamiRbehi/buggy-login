@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
-    base: "/buggy-login/"
+    base: "/buggy-login",
   },
 })
