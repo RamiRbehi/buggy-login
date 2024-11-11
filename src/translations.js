@@ -1,0 +1,42 @@
+export const translations = {
+  en: {
+    loginTitle: "Login to Your Account",
+    username: "Username",
+    password: "Password",
+    signIn: "Sign In",
+    forgotPassword: "Forgot Password?",
+    loginHint: "Hint: Valid username is \"tester\" with password \"password123\" (Chrome only)",
+    viewSpecs: "View Specs",
+    welcome: "Welcome",
+    loggedInAt: "You logged in at",
+    logout: "Logout",
+    specifications: "Expected Specifications",
+    chromeOnly: "This application only works in Chrome browser",
+    loginFailed: "Login failed! Please try again.",
+    invalidCredentials: "Invalid credentials but proceeding anyway",
+    forgotPasswordError: "Forgot password feature not implemented",
+    expected: "Expected",
+    actual: "Actual",
+    availableUsers: "Available test users:"
+  },
+  fr: {
+    loginTitle: "Connectez-vous à votre compte",
+    username: "Nom d'utilisateur",
+    password: "Mot de passe",
+    signIn: "Se connecter",
+    forgotPassword: "Mot de passe oublié?",
+    loginHint: "Indice: Nom d'utilisateur valide est \"tester\" avec mot de passe \"password123\" (Chrome uniquement)",
+    viewSpecs: "Voir les spécifications",
+    welcome: "Bienvenue",
+    loggedInAt: "Vous vous êtes connecté à",
+    logout: "Déconnexion",
+    specifications: "Spécifications attendues",
+    chromeOnly: "Cette application ne fonctionne que sur Chrome",
+    loginFailed: "Échec de la connexion! Veuillez réessayer.",
+    invalidCredentials: "Identifiants invalides mais on continue quand même",
+    forgotPasswordError: "La fonction mot de passe oublié n'est pas implémentée",
+    expected: "Attendu",
+    actual: "Actuel",
+    availableUsers: "Utilisateurs de test disponibles :"
+  }
+};
