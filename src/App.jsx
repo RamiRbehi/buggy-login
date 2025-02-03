@@ -41,6 +41,9 @@ function App() {
           translations={translations[language]}
         />
       )}
+       <div className="absolute bottom-1 text-white text-sm tracking-wide" style={{ color: 'rgba(0,0,0,01)' }}>
+        Project by Rami Ben Taieb © {new Date().getFullYear()}
+      </div>
     </div>
   );
 }
